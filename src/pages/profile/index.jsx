@@ -11,7 +11,7 @@ export default function Profile() {
     try {
       await axios.get("/api/users/logout");
       console.log("Logged out successfully");
-      router.push("/login");
+      router.push("/authentication");
     } catch (error) {
       console.error("Error logging out:", error.message);
     }
