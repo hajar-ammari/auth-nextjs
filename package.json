@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "auth-nextjs": "file:",
-    "axios": "^1.7.4",
+    "axios": "^1.15.2",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.3",
